@@ -1,0 +1,43 @@
+{
+  "name": "walletactivation",
+  "version": "1.0.0",
+  "description": "Simple tool to automatically activate a new XRP wallet (hash)",
+  "private": true,
+  "license": "MIT",
+  "proxy": "http://localhost:8080",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.8.1",
+    "react-google-recaptcha": "^1.0.5",
+    "react-google-tag-manager": "^2.2.1",
+    "react-gtm-module": "^2.0.4",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-popup": "^0.10.0",
+    "react-scripts": "^2.1.5",
+    "react-stripe-elements": "^2.0.1",
+    "stripe": "^6.20.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

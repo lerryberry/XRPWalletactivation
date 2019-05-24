@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
+
+#wrapper{
+    width: 60%;
+    background-color: #efefef;
+    opacity: 0.8;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 700px;
+    min-width: 355px;
+    min-height: 530px;
+    height: 530px;
+}
+
+#wrapper > *{
+	display: flex;
+	flex-direction: column;
+    align-self: center;
+}
+
+#body > *{
+    margin:3px;
+}
+
+#body {
+    width:340px
+}
+
+#head {
+    margin-top: 0px;
+}
+
+#form {
+    margin-bottom: 25px;
+}
+
+svg {
+    align-self: center;
+}
+ 
+svg#logo{
+    width: 80px;
+    height: 70px;
+}
+
+.socials{
+    width:25px;
+}
+
+h1, h2, h3, p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:400;
+    color: #626468;
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1{
+    font-size: 1.4em;
+    margin:5px;
+}
+
+h2{
+    font-size: 1.1em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+#hash {
+    border: 1.5px dashed #0E3854;
+    border-radius: 13px;
+    opacity: .8;
+}
+
+#hash p{
+    margin: 3px;
+}
+
+.tag h2{
+    color: white;
+    margin:0;
+    text-align: left;
+}
+
+.fixHeight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#walletForm{
+    height: 80px;
+}
+
+#tipForm{
+    height: 190px;
+}
+
+.tag div{
+    margin: 8px 20px 8px 25px;
+}
+
+#error {
+    width: 70px;
+    height: 70px;
+    margin: 10px 0 30px 0;
+}
+
+.tag{
+    margin-top:5px;
+    display: inline-block;
+    background: #d49063;
+    font-size: 16px;
+    position: relative;
+}
+
+.tag:before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    background: inherit;
+    height: 38px;
+    border: 9px solid #efefef;
+    border-right-color: transparent;
+    left: -15px;
+    top: -0.5px;
+}
+
+.tag:after{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #efefef;
+    position: absolute;
+    top: 24px;
+}  
+
+@media (max-width: 420px) {
+    .tag:before{
+        content: "";
+        position: absolute;
+        width: 0px;
+        background: inherit;
+        height: 39px;
+        border: 10px solid #efefef;
+        border-right-color: transparent;
+        left: -18px;
+        top: -0.5px;
+    }
+} 
